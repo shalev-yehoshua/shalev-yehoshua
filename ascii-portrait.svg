@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="840" viewBox="0 0 1000 840" role="img" aria-labelledby="title desc">
+  <title id="title">ASCII portrait of Shalev Yehoshua</title>
+  <desc id="desc">A red and white ASCII portrait displayed inside a dark terminal window.</desc>
+  <defs>
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#170307"/>
+    </linearGradient>
+    <linearGradient id="asciiGradient" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#ff1744"/>
+      <stop offset="0.38" stop-color="#ff526f"/>
+      <stop offset="0.72" stop-color="#f0f6fc"/>
+      <stop offset="1" stop-color="#ff1744"/>
+    </linearGradient>
+    <linearGradient id="scanGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff1744" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff1744" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#ff1744" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="portraitClip">
+      <rect x="28" y="88" width="944" height="684" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1000" height="840" rx="22" fill="#010203"/>
+  <rect x="12" y="12" width="976" height="816" rx="18" fill="url(#terminalBg)" stroke="#30363d" stroke-width="2"/>
+  <rect x="12" y="12" width="976" height="76" rx="18" fill="#161b22"/>
+  <path d="M12 70H988V88H12Z" fill="#161b22"/>
+  <line x1="12" y1="88" x2="988" y2="88" stroke="#30363d" stroke-width="2"/>
+
+  <circle cx="48" cy="50" r="9" fill="#ff5f56"/>
+  <circle cx="76" cy="50" r="9" fill="#ffbd2e"/>
+  <circle cx="104" cy="50" r="9" fill="#27c93f"/>
+  <text x="140" y="57" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">
+    shalev-yehoshua@github:~$ ./portrait.sh
+  </text>
+  <rect x="594" y="39" width="11" height="23" fill="#ff1744">
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.15s" repeatCount="indefinite"/>
+  </rect>
+
+  <g clip-path="url(#portraitClip)">
+    <g fill="url(#asciiGradient)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="600" filter="url(#softGlow)">
+      <text x="212" y="113.0" xml:space="preserve">                          .............              .::,    :,::::,..</text><text x="212" y="123.3" xml:space="preserve">                         ....,,,..,....              ::;    ,::::::,..</text><text x="212" y="133.6" xml:space="preserve">                        ...,,:,,,,:.,,.             .ii.   .;;;:;::,..</text><text x="212" y="143.9" xml:space="preserve">                        .,,,::::::,,:,          .   ssr.   :;i;;i;:,.</text><text x="212" y="154.2" xml:space="preserve">                    .  ,,,,::::,;,:,:.    ,iA53hHHHSSSGMhrXAss;;;:,,. .     .</text><text x="212" y="164.5" xml:space="preserve">                    . .,::::::::;,::. :X3S#9BBBB9#9###99BB9#SGh5Ai,....     .</text><text x="212" y="174.8" xml:space="preserve">                 . .  ::::::::::::,,rh#9###9999B9999###S#GGGSS#SGG3: .     ..</text><text x="212" y="185.1" xml:space="preserve">               ..... .::,;;;:;:::,rh9B##S##9##9###9#SGSGGMMhhhMS###Hr     ...</text><text x="212" y="195.4" xml:space="preserve">        .     ...... :;::;i:;;:::59&amp;&amp;9#SGHHHHh355222Assrrriiri;r399G5.   ...</text><text x="212" y="205.7" xml:space="preserve">       ..  .....,.. ,:::i;ii:;::H&amp;&amp;#M52AXsii;;:,,,,..............;5GG:   ...</text><text x="212" y="216.0" xml:space="preserve">      ... .....,,,. ;:i;;ii;i::r&amp;9hAXsri;:,,,,.......          ....2GG. ...</text><text x="212" y="226.3" xml:space="preserve">     ... .....,,,: :;;i;ii;;i;,M95XXssri;::,,,.......            ..:2S3...</text><text x="212" y="236.6" xml:space="preserve">    .... ....,:,:. i;;;i;i;;;:sB3XXXsrrr;;:::,........             ,s3Sr..</text><text x="212" y="246.9" xml:space="preserve">    .,. ..,,,::,: :i;;ir;;;;::GHAXXXsrri;;;:,..........            .;sh3.</text><text x="212" y="257.2" xml:space="preserve">   ..,...,,,::::. i;;iiii;;;:;#3AAXrii;i;;:,.  .....  .::;i;;;,     .i5h.</text><text x="212" y="267.5" xml:space="preserve">  ..,...,:,,:::: :i;;iirr;;;,rG22XA533hMM32r:. ....:r5MSS#SGGM32s:   .2M.             .....</text><text x="212" y="277.8" xml:space="preserve">  .,,..,,:,:::;. iii;iiri;i:,ihAhGGGGGS###SH3X:,.. ,issssri::. .:r.   rM:            ...........</text><text x="212" y="288.1" xml:space="preserve"> ..,...,,:,:::: ;iiiiiiii;:::ihAM3Asi:,::s5hM3X:    .:rssi,       .  .A3,.......................</text><text x="212" y="298.4" xml:space="preserve"> .,,..,::,,::i..iiiiriii;;::;,52522225hhHMMMHh2i.  .:X335SS3r;;,      55,,......................</text><text x="212" y="308.7" xml:space="preserve">..,..,,::::::: ;ii;iriii;:::: sAA5MGGH9BS5MHh3A;,. .:;XAs2MA:ii,      2s. .,..,,,,.,,,..,,,,,,.</text><text x="212" y="319.0" xml:space="preserve">.,,.,,:,::::;..ii;;rrii;:::::2XssXXAAA2523h352A;.   .,:ii;:.          :   ,,.,,,,,,,,,,,,::,:,</text><text x="212" y="329.3" xml:space="preserve">.,..,,:,,::;; iii;iriii;:::, 5XsssssrssXAAAAA2X:       ..,..          :   ,.,,,,,,,,,::::::::.</text><text x="212" y="339.6" xml:space="preserve">,..,,,,,,::;.,s;;iriii;::;:. rAsssrrrrssssXAAXi,                      s:, .,,,,,,,::::::::::,</text><text x="212" y="349.9" xml:space="preserve">,..,,,,,::;: ir;iiriii:;::, ,52XsrrrrrirssXAAr:,.                    :i;: ,,,,,,,:::::::::;:</text><text x="212" y="360.2" xml:space="preserve">..,,,,,,:;i.:ii;rriri;;:;:   X3AXsrrrirrssAAXr:.                    .A.  ,,,,,,::::::::::;:.</text><text x="212" y="370.5" xml:space="preserve">..,:,,,::i:.riiirriii;;:;.    52XsrrrrrrrsX2h3s;:  .,               5; .:,,,,,::::::::::;;,</text><text x="212" y="380.8" xml:space="preserve">..,,,.,:;i.:riiiriir;i:;: .   :hXXsrrrrirrsAhSS3AsAXi.             XM,,:,,::::::::::::;;;:.....</text><text x="212" y="391.1" xml:space="preserve">.,,,,,:;;:.irirrsrri;;;;.    . M5XXssssA255H#SHMSSh332i:::.      .rMA.,,,:::::::::::;;;i:.......</text><text x="212" y="401.4" xml:space="preserve">.,,,,::;i,,rirrrrrii;:i:       AS52XXAMSHMMh52AXs:::;riA523,    ,iAM:,,,::::::::::;;;;i;,.......</text><text x="212" y="411.7" xml:space="preserve">.,,,::;;;,rsrssrriri;i;  .. .. .SMMh22Gh5hM33hh5AXsr;::rriA: .:,iXMA.:,::::::::::;;;;ii:........</text><text x="212" y="422.0" xml:space="preserve">,,,:::;i:;ssssssrri;;i: ... ..  sBHGM25AXAA2AXi:,,.         .rAX2HM,:::::::::::;;;;iii:.........</text><text x="212" y="432.3" xml:space="preserve">,,:::;ii:XAAsXXrsii;;;.......    5@#SHh2AAA2555532Xi:.     :225hSM..:::::::::;;;;;iii;,.........</text><text x="212" y="442.6" xml:space="preserve">,,:::;i:iAXAAsXssii;;, . ....     A&amp;B#SHh22253HS#Ghs:.   ,;X5MSS2  .::::::::;;;;iiiii,,.,.......</text><text x="212" y="452.9" xml:space="preserve">,:::;i;:sXAXAAsArrii;........     .2H&amp;&amp;9#H3253MMHM3:.  .:r3H#S5:    ::::::;;;;iiiiri:.,.,,.,....</text><text x="212" y="463.2" xml:space="preserve">,:::;i:iXXA2AAXXsiii:.......   .  X; :#&amp;&amp;9#SHHGGHHMAsXs5MG9S2:.     :;:::;;;iiiiirr;,..,,,,,....</text><text x="212" y="473.5" xml:space="preserve">,:::i;:sXXA222AXrrr:.,.....    . :A   XHSB&amp;&amp;BB99B9B#S#G##H2i,..     .:;;;;;iiiirrri:,,,,,,,,,...</text><text x="212" y="483.8" xml:space="preserve">,,:;;:isXAA222AXrri....          X::sMSh5hG#99###SSHH32Xr::,.        .:;iiiirrrrsr:,,,,,,,,,....</text><text x="212" y="494.1" xml:space="preserve">,::;;:rsXXA2AAXrrs;:rsX2225533MMGS9@@@@95253h35Ari;;::::::,..        .,:;rriiiirr:,:::,:,:,,....</text><text x="212" y="504.4" xml:space="preserve">,::;:rsXXA53MMHS9BB@@@@@@@@@@@@@@@@@@@@@#2XsXAAXri;:::::::,..        .,::;r3HGSS#h:....::::,,...</text><text x="212" y="514.7" xml:space="preserve">,:::issAhG#9&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@BGh22AXsrrri;;;::,...  . ..:;isA3HB@@@@@@Bh33s:,,,,,,..</text><text x="212" y="525.0" xml:space="preserve">,:::is2hHGS9B&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;B#GMhh3552AAAAAAA253hHG#B&amp;@@@@@@@@@@@@@@@BMX:.....</text><text x="212" y="535.3" xml:space="preserve">,,:;sA5hMHS#9&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;BG5;,..</text><text x="212" y="545.6" xml:space="preserve">.:irXA23hMGS#B&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;B9#SSH5r,</text><text x="212" y="555.9" xml:space="preserve">,:;isXA53hHGS9B&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;&amp;&amp;B9SGHMh3A</text><text x="212" y="566.2" xml:space="preserve">,::irsA253MHGS9B&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;9#SGMh32A</text><text x="212" y="576.5" xml:space="preserve">.,:;irXA25hMHG#9B&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;9#SGHh35AX</text><text x="212" y="586.8" xml:space="preserve">..,:;iirX2A2hhHsM9B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;B#SGHM352As</text><text x="212" y="597.1" xml:space="preserve"> ..::::iXi..,... sr:h@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;B#SGHMh52AXr</text><text x="212" y="607.4" xml:space="preserve">  .,,.,:::,; ... . , h&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;B9#SGHM352AXri</text><text x="212" y="617.7" xml:space="preserve">   ..    .::.;r. :i:. 2@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;B9#SGHh352AXri;</text><text x="212" y="628.0" xml:space="preserve">    . .  .::::;55r  iSh&amp;&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;B9#SGHMh352AXri;:</text><text x="212" y="638.3" xml:space="preserve">     .,.  ::: .,5hAX 5#9B&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;B9#SGHMh35AXsri;::</text><text x="212" y="648.6" xml:space="preserve">      .. .,,....:23h3MGS#9B&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;B9#SGHMh352AXsri;:,.</text><text x="212" y="658.9" xml:space="preserve">       ...,....:::23hMHGSS#9B&amp;&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;BB9#SGHMMh352AXsr;::,..</text><text x="212" y="669.2" xml:space="preserve">        ......::;iA253hMHGGS#99B&amp;&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;B9##SGHHMh352AXsri;::,..</text><text x="212" y="679.5" xml:space="preserve">          ...,::isXAA253hMHHGS##99B&amp;&amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;&amp;B99#SSGHMMh352AXsri;::,..</text><text x="212" y="689.8" xml:space="preserve">           ..,::;irsXAA253hhMHGGS##99BB&amp;&amp;&amp;@@@@@@@@@@@@@@@@@@@&amp;&amp;BBB9##SSGHHMhh352AXXsri;::,..</text><text x="212" y="700.1" xml:space="preserve">             .,,::;irsXAA2533hMMHGGSS###999BBBB&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;BBBB999###SSGHHMMh3552AXXsri;::,..</text><text x="212" y="710.4" xml:space="preserve">               .,:::;irsXXA22533hMMHHGGGSSS#####999999######SSSGGHHMMhh33522AXssri;::,,..</text><text x="212" y="720.7" xml:space="preserve">                ..,:::;irrsXAA22553hhhMMHHHGGGGGGSSSSGGGGGGHHHHMMhh335522AXXsrii;::,,..</text><text x="212" y="731.0" xml:space="preserve">                  ..,,::;iirssXXAA2255333hhhMMMMMMMMMMMMMMMhhh3335522AAXXsrri;;::,,..</text>
+    </g>
+    <rect x="38" y="92" width="924" height="3" fill="url(#scanGradient)">
+      <animate attributeName="y" values="92;768;92" dur="5.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.75;0" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <line x1="48" y1="782" x2="952" y2="782" stroke="#30363d"/>
+  <text x="50" y="812" fill="#ff1744" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">
+    [ SHALEV YEHOSHUA // SOFTWARE ENGINEERING ]
+  </text>
+  <text x="950" y="812" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">
+    JAVA • PYTHON • RPG • AI
+  </text>
+</svg>

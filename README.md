@@ -14,6 +14,16 @@
 
 ---
 
+## 🖥️ System Identity
+
+<div align="center">
+
+<img width="92%" src="./ascii-portrait.svg" alt="Animated ASCII portrait of Shalev Yehoshua in a terminal window" />
+
+</div>
+
+---
+
 ## ⚡ About Me
 
 ```java
